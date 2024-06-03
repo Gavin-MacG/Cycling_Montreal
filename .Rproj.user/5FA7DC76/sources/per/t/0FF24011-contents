@@ -192,7 +192,7 @@ Total_all <- summarize_groups(Sensor_Imputed, "Control, leisure and parallel", e
 Total_ctrl_leisure <- summarize_groups(Sensor_Imputed, "Control, leisure", expr(Group %in% c("ctrl", "leisure")))
 Total_ctrl <- summarize_groups(Sensor_Imputed, "Control", expr(Group == "ctrl"))
 Total_ll <- summarize_groups(Sensor_Imputed, "Parallel", expr(Group == "ll"))
-Total_untreated <- summarize_groups(Sensor_Untreated, "Untreated", expr(Group == "untreated"))
+Total_untreated <- summarize_groups(Sensor_Untreated, "Untreated", expr(Group == "Untreated"))
 
 ##############################################################
 # Important correction : some sensors have partial or absent data for 2023
@@ -256,7 +256,7 @@ Stats_ctrl <- overwrite_2023(Stats_ctrl, Stats_ctrl_2023)
 Stats_ll <- overwrite_2023(Stats_ll, Stats_ll_2023)
 
 #################################################################
-# Create tabel to compare covid drops by group ------------------------------------------
+# Create table to compare covid drops by group ------------------------------------------
 #################################################################
 
 # Pivot tables and keep only covid drop statistics from total ridership
