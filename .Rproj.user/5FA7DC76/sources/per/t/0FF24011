@@ -3,7 +3,7 @@
     "path": "C:/_MY FOLDERS/RECHERCHE/_GITHUB/Cycling_Montreal/Scripts/3-Descriptive_Stats.R",
     "project_path": "Scripts/3-Descriptive_Stats.R",
     "type": "r_source",
-    "hash": "811745072",
+    "hash": "2978428791",
     "contents": "",
     "dirty": false,
     "created": 1717210956419.0,
@@ -13,15 +13,15 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "31,0",
-        "scrollLine": "21"
+        "cursorPosition": "323,0",
+        "scrollLine": "311"
     },
     "folds": "",
-    "lastKnownWriteTime": 1717386439,
+    "lastKnownWriteTime": 1717389616,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1717386439465,
+    "last_content_update": 1717389616251,
     "read_only": false,
     "read_only_alternatives": []
 }

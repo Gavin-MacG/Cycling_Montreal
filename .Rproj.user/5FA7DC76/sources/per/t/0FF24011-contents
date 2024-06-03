@@ -274,9 +274,7 @@ pivot_ctrl <- pivot(Stats_ctrl)
 pivot_ll <- pivot(Stats_ll)
 
 # Combine tables
-Stats_CompareGroups <- bind_rows(pivot_untreated,pivot_all,pivot_ctrl_leisure,pivot_ctrl,pivot_ll) %>% 
-  select(-"2018")
-
+Stats_CompareGroups <- bind_rows(pivot_untreated,pivot_all,pivot_ctrl_leisure,pivot_ctrl,pivot_ll)
 
 #################################################################
 # Create Covid Change table for individual sensors------------------------------------------
