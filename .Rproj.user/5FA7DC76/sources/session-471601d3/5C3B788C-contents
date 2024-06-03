@@ -79,7 +79,7 @@ for (i in seq_along(Sensor_List)) {
 # Clean data  : remove problematic sensors (14) -----------------------
 #################################################################
 
-# Remove sensors with too many data quality issues (2): 
+# Remove sensors with too many data quality issues (4): 
 quality_issues <- c("MetroLaurier",
                     "Gouin_Lajeunesse",
                     "SaintAntoine",
@@ -87,7 +87,7 @@ quality_issues <- c("MetroLaurier",
 
 Sensor_List <- Sensor_List[!names(Sensor_List) %in% quality_issues]
 
-# Remove sensors with insufficient data to run imputation(12): 
+# Remove sensors with insufficient data to run imputation(10): 
 # at least two non-NA data points required per target day
 # none of the following sensors have data for pre-covid periods
 insufficient_data_issues <- c("BordduLacversest", 
