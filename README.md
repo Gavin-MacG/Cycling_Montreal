@@ -1,4 +1,4 @@
-# Revisiting COVID-19’s Impact on Cycling: An Examination of Bicycle Count Data in Montréal
+### Revisiting COVID-19’s Impact on Cycling: An Examination of Bicycle Count Data in Montréal
 
 # Description
 This project contains the code used in the following article: <br/>
