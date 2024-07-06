@@ -1,25 +1,29 @@
 # Revisiting COVID-19’s Impact on Cycling: An Examination of Bicycle Count Data in Montréal
 
-## Description
+# Description
 This project contains the code used in the following article: <br/>
 [Revisiting COVID-19’s Impact on Cycling: An Examination of Bicycle Count Data in Montréal](https://findingspress.org/article/118813-revisiting-covid-19-s-impact-on-cycling-an-examination-of-bicycle-count-data-in-montreal)
 
+## Instructions
 
-# Folder structure 
+Open the Rproj file, then access the individual scripts from the file menu <br/>
+
+## Folder structure 
 
 DataRaw : Contains the raw bike count data obtained fro the [City of Montreal](https://donnees.montreal.ca/en/dataset/velos-comptage) <br/>
 DataTreated : Contains all the processed data that was created with the scripts <br/>
 Outputs : Contians all the tables and figures created with the scripts <br/>
 Scripts : Contains the individual R scripts <br/>
 
-# Packages
+## Packages
 "tidyverse" <br/>
 "imputeTS" <br/>
 "forecast" <br/>
 "openxlsx" <br/>
 
+Note : All package installation is handled within the scripts.
 
-## Note:
+# Note:
 
 We have made minor adjustments to the imputation script for Figure 2 since publication. <br/>
 For context, we selected the University_Milton sensor for this figure as it has an extensive period of missing data, <br/>
@@ -33,6 +37,6 @@ However, as this methodology generates separate imputation graphs, we opted to s
 
 All findings presented in the article, except those in Figure 2, reflect the results obtained after applying this split sensor methodology. <br/>
 
-## Author
+# Author
 
 Gavin MacGregor
