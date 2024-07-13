@@ -8,6 +8,12 @@ This project contains the code used in the following article: <br/>
 
 Open the Rproj file, then access the individual scripts from the file menu <br/>
 
+## Script descriptions
+
+**1-Data_Preparation** :  Consolidates Montreal bike count data from multiple years <br/>
+**2-Imputation (Day)** :  Imputes missing values <br/>
+**3-Descriptive_Stats** : Descriptive statistics for the data (weekend/weekday ridership, high/low season ridership, percent changes per year, effect of COVID-19) <br/>
+
 ## Folder structure 
 
 **DataRaw** : Contains the raw bike count data obtained fro the [City of Montreal](https://donnees.montreal.ca/en/dataset/velos-comptage) <br/>
